@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
 import App from './containers/App';
+
+import styles from './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App className={styles} />
   </React.StrictMode>,
   document.getElementById('root')
 );

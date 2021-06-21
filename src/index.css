@@ -1,0 +1,18 @@
+:root {
+  --color-dark-blue: darkblue;
+  --color-black: #000;
+  --color-white: #fff;
+
+  --spacing-medim: 20px;
+
+  --font-family-main: sans-serif;
+
+  --border-radius-small: 3px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-dark-blue);
+  font-family: var(--font-family-main);
+}
