@@ -1,11 +1,14 @@
 :root {
   --color-dark-blue: darkblue;
   --color-black: #000;
+  --color-yellow: #ffff00;
   --color-white: #fff;
 
   --spacing-medim: 20px;
 
   --font-family-main: sans-serif;
+
+  --font-size-header: 26px;
 
   --border-radius-small: 3px;
 }
