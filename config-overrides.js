@@ -7,10 +7,13 @@ module.exports = function override(config, env) {
     '@constants': 'src/constants',
     '@hoc-helpers': 'src/hoc-helpers',
     '@services': 'src/services',
+    '@static': 'src/static',
     '@utils': 'src/utils',
-    '@styles': 'src/styles'
+    '@styles': 'src/styles',
+    '@routes': 'src/routes',
     
   })(config);
+
   return config;
 
 }
