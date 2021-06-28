@@ -1,3 +1,7 @@
-.link{
-  margin: 5px;
+.container{
+  display: flex;
+}
+
+.buttons {
+  margin: var(--spacing-small);
 }
