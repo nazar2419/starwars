@@ -8,8 +8,6 @@ const PersonLinkBack = () => {
   const handleGoBack = e => {
     e.preventDefault();
     history.goBack();
-    console.log(history);
-    console.log('handleGoBack');
   }
   return (
     <a 
