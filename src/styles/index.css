@@ -10,7 +10,7 @@
 
   --spacing-ultrasmall: 5px;
   --spacing-small: 10px;
-  --spacing-medim: 20px;
+  --spacing-medium: 20px;
   --spacing-large: 30px;
 
   --font-size-main: 16px;
@@ -75,6 +75,7 @@ body {
 img {
   display: block;
 }
+
 .header__text {
   line-height: 1.7;
   font-size: var(--font-size-header);
